@@ -1,0 +1,145 @@
+.MuiAccordionSummary-root.Mui-expanded {
+  min-height: 20px !important;
+  margin: 12px 0 2px 0;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: $RED !important;
+}
+
+.MuiFormHelperText-root {
+  color: $RED !important;
+}
+.App-header .MuiButton-outlinedPrimary {
+  color: #fdfdfd;
+  border: 1px solid $BORDER;
+}
+.MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 7px 24px;
+}
+.MuiCollapse-wrapperInner .MuiAccordionDetails-root {
+  display: flex;
+  padding: 8px 0;
+}
+button.MuiButton-root {
+  font-size: 0.8rem;
+  width: 60px;
+  padding: 1px;
+  margin: 5px;
+  border: none;
+}
+.jss7 {
+  width: 320px;
+  padding-left: calc(50% - 164px);
+}
+
+.MuiAccordion-root.Mui-disabled {
+  background-color: white !important;
+}
+.MuiAccordion-root:before {
+  display: none;
+}
+.MuiAccordion-root.Mui-expanded:last-child {
+  margin-bottom: 0;
+  width: 100%;
+}
+.MuiAccordionSummary-content.Mui-expanded {
+  margin: 10px 0 !important;
+}
+
+button.MuiButton-outlinedPrimary {
+  border: none;
+  min-width: 90px;
+  margin: 0 10px;
+  padding: 1px 5px;
+  width: 60px;
+  color: black;
+  font-size: 0.8rem;
+}
+button.MuiButton-outlinedPrimary:hover {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+.hi-div{
+  margin: 5px;
+  font-size: 0.9rem;
+  margin-top: -5px;
+  font-weight: 600;
+  position: absolute;
+}
+
+span.MuiButton-label {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+
+svg:not(:root) {
+  overflow: visible;
+  height: 20px;
+}
+
+@media only screen and (max-width: 414px) {
+  button.MuiButton-outlinedPrimary {
+    border: none;
+    min-width: initial;
+    margin: 0  5px 5px 5px;
+    padding: 3px;
+    width: initial;
+    color: black;
+    height: 37px;
+
+    span {
+      font-size: 0.72rem;
+      line-height: 1.2;
+      text-transform: capitalize;
+    }
+  }
+
+  button.editbt{width:67px;}
+  
+  .MuiDialog-paperWidthSm {
+    max-width: 300px !important ;
+  }
+  .MuiDialog-paper {
+    top: -8%;
+  }
+  span.MuiButton-label {
+    font-size: 0.7rem;
+  }
+  .MuiCollapse-wrapperInner .MuiAccordionDetails-root {
+    padding: 0px;
+  }
+  .MuiPaper-root .MuiDialogTitle-root {
+    margin: 6px 0 -15px 0;
+    padding: 5px 24px;
+  }
+  .makeStyles-root-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .MuiDialogContent-root {
+    .makeStyles-details-7 {
+      width: initial;
+      margin: 0px;
+      .makeStyles-MuiFormControl-10 {
+        margin: 5px;
+      }
+    }
+    .makeStyles-imgDiv-6 {
+      width: initial;
+      margin: 0px;
+      .makeStyles-img-9 {
+        width: 80px;
+        height: 100px;
+        justify-content: space-around;
+      }
+      .makeStyles-MuiFormControl-10 {
+        margin: 5px;
+      }
+    }
+  }
+}

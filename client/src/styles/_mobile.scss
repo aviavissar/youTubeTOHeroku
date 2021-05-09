@@ -1,0 +1,45 @@
+@media only screen and (max-width: 414px) {
+  .App {
+    text-align: left;
+    padding: 2px;
+    font-size: 0.7rem;
+  }
+  .App-header {
+    padding: 10px 5px;
+    width: 99%;
+    min-height: 7vh;
+    z-index: 50;
+    margin: -2px -2px 0px -2px;
+  }
+
+  .container {
+    width: 83%;
+  }
+  .containerT {
+    width: 84%;
+    button {
+      min-width: 10px;
+    }
+  }
+  .table-container {
+    margin: 5px;
+    width: 100%;
+  }
+  ifram {
+    width: 300px !important;
+    height: 200px !important;
+  }
+  button {
+    margin: 5px;
+    font-size: 12px;
+    min-width: 80px;
+  }
+
+  .App__Aside-sc-1vp6mrx-1
+    .table-container
+    .taskRow:first-of-type
+    .flex-row.first {
+    width: 26%;
+    padding-left: 0px;
+  }
+}

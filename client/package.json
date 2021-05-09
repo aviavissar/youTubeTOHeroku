@@ -1,0 +1,54 @@
+{
+  "name": "youtubessss",
+  "version": "1.0.0",
+  "description": "",
+  "proxy": "http://127.0.0.1:3000/",
+  "secure": false,
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.21.1",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.1.5",
+    "is-mobile": "^2.2.2",
+    "jsonfile": "^6.1.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-app-rewire-styled-components": "^3.0.2",
+    "react-device-detect": "^1.13.1",
+    "react-dom": "16.9.0",
+    "react-script": "^2.0.5",
+    "react-scripts": "^4.0.3",
+    "react-youtube": "^7.13.1",
+    "styled-components": "4.3.2",
+    "youtube-api-v3-search": "^1.2.1",
+    "yup": "^0.29.3"
+  },
+  "plugins": [
+    "styled-components"
+  ],
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "react-app-env": "^1.2.3"
+  },
+  "scripts": {
+    "start": "env-cmd -f ./config/dev.env  react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

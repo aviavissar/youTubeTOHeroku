@@ -1,0 +1,140 @@
+html,
+body {
+  line-height: 1;
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100%;
+}
+span {
+  font-size: 14px;
+}
+ol,
+ul {
+  list-style: none;
+}
+.box0{
+  padding-top:10px;
+}
+blockquote,
+q {
+  quotes: none;
+}
+.logoutDiv {
+  font-size: 0.8em;
+  display: flex;
+  justify-content: space-around;
+  min-width: 150px;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-ser;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 3px;
+  border: none;
+}
+input.category {
+  min-width: 200px;
+}
+select {
+  width: 170px;
+  padding: 5px;
+  margin: 10px;
+  height: 24px;
+}
+
+button {
+  height: 50px;
+  min-width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 3px;
+  border: none;
+  background-color: gray;
+  color: white;
+  font-size: medium;
+}
+.buttonDiv {
+  height: 12vh;
+  padding: 20px;
+  display: flex;
+    justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.none {
+  display: none !important;
+}
+.disable {
+  opacity: 0.3;
+}
+.errmsg {
+  color: red;
+  font-size: 1em;
+  font-weight: bold;
+}
+.category_form {
+  display: flex;
+  width: 100%;
+  button {
+    min-width: 100px;
+    font-size: 12px;
+    height: 33px;
+    padding: 5px 10px;
+    margin: auto 10px;
+  }
+
+  input {
+    height: 30px;
+    padding: 5px;
+    margin: auto 10px;
+    @media only screen and (max-width: 414px) {
+      height: 24px;
+      padding: 5px;
+      margin-left: 6px;
+      min-width: 134px;
+      width: 152px;
+    }
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    width: 20vw;
+    @media only screen and (max-width: 414px) {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    flex-direction: column;
+    width: 90%;
+  }
+}
